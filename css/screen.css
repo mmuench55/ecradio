@@ -1,5 +1,3 @@
-
-
 header {
   font: .65em "Arial", sans-serif;
   color: #fff;
@@ -46,7 +44,6 @@ nav a{
 }
 
 footer {
-  margin-right: -2em;
   margin-left: -2em;
   margin-bottom: -2em;
   background: #000046
@@ -97,6 +94,7 @@ iframe {
 a { color: #fff;}
 
 .about{
+  text-align: center;
   margin: auto;
 }
 
@@ -127,16 +125,25 @@ figcaption p{
   font color: #fff;
 }
 
+
 #button {
-  text-align: center;
-  padding: .1em;
-  color: #000046;
+  display:inline;
+  margin-top: -4em;
   background: #f7ea47;
-  border-radius: 4%;
+  float: right;
+  padding: .2em;
+  border-radius: 8%;
+}
+
+#button h6 {
+  margin-top: 0.5em;
+  margin-left: 1.7em;
 }
 
 #button p{
-  margin-top: -1em;
+  font-size: .2em;
+  margin-top: -2em;
+  margin-left: 1.5em;
 }
 
 #button a{
