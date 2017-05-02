@@ -40,7 +40,7 @@ nav a{
   display: block;
   padding: 3em;
   background: #0059ec;
-  border-radius: 5%;
+  border-radius: .65em;
 }
 
 footer {
